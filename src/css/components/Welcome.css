@@ -1,0 +1,21 @@
+.welcome-container {
+  margin: 20px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.welcome-container-title, .welcome-container-paragraph {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.welcome-container-title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.welcome-container-paragraph {
+  padding: 15px;
+  line-height: 1.8rem;
+}
