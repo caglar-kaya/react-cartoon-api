@@ -1,0 +1,14 @@
+.info-container {
+  margin: 20px 10px;
+}
+
+h3 {
+  background-color: #98368c;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  width: 85%;
+  margin: 0px auto;
+  border-radius: 5px;
+  font-size: 2rem;
+}
