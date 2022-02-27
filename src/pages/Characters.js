@@ -6,12 +6,15 @@ import SearchBar from '../components/SearchBar';
 import Info from '../components/Info';
 import CharacterList from '../components/CharacterList';
 
+import useRandom from '../hooks/useRandom';
 import useFetch from '../hooks/useFetch';
 
 function Characters() {
+  const randomPage = useRandom(42);
+
   const [data, setData] = useState(null);
   const [isDataLoading, dataError, performFetchData] = useFetch(
-    'https://rickandmortyapi.com/api/character',
+    `https://rickandmortyapi.com/api/character?page=${randomPage}`,
     setData,
   );
 
@@ -19,15 +22,9 @@ function Characters() {
     performFetchData();
   }, []);
 
-  console.log(data);
-
-  if (data === null) {
-    return null;
-  }
-
   if (dataError) {
     return 'Unable to get the characters, please try again';
-  } else if (isDataLoading) {
+  } else if (isDataLoading || data === null) {
     return 'Loading...';
   }
 
