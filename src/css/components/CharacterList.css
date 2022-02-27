@@ -1,0 +1,23 @@
+.characters {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #47aee4;
+  border-radius: 10px;
+}
+
+.characters ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.character-item {
+  list-style: none;
+  width: 28%;
+}
+
+.character-item a {
+  text-decoration: none;
+}
+
+

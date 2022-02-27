@@ -1,0 +1,34 @@
+.character-element {
+  margin: 20px 10px;
+  border-radius: 15px;
+  background-color: #ed0080;
+  overflow: hidden;
+}
+
+.character-title {
+  background-color: #fff15c;
+}
+
+.character-title h2 {
+  padding: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.character-infos ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-infos ul li {
+  color: #fff;
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

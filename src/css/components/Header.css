@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #47aee4;
+}
+
+.header-title {
+  margin: 10px 20px;
+}

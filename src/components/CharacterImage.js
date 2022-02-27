@@ -6,6 +6,8 @@ import FavouriteContext from '../contexts/FavouriteContext';
 import heartEmpty from '../assets/heart-regular.svg';
 import heartFilled from '../assets/heart-solid.svg';
 
+import '../css/components/CharacterImage.css';
+
 function CharacterImage({ characterId, image, name }) {
   const { isFavourite, toggleFavourite } = useContext(FavouriteContext);
 

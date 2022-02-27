@@ -1,16 +1,19 @@
 import './App.css';
 
-import Welcome from './components/Welcome';
-import SearchBar from './components/SearchBar';
-import Info from './components/Info';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import { FavouriteContextProvider } from './contexts/FavouriteContext';
+import Characters from './pages/Characters';
 
 function App() {
   return (
-    <div className="App">
-      <Welcome />
-      <SearchBar/>
-      <Info/>
-    </div>
+    <FavouriteContextProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Characters />} />
+        </Routes>
+      </BrowserRouter>
+    </FavouriteContextProvider>
   );
 }
 
