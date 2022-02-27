@@ -1,9 +1,9 @@
 import '../css/components/Info.css';
 
-function Info() {
+function Info({number}) {
   return (
     <div className="info-container">
-      <h3>You are displaying 20 characters out of 826 characters randomly.</h3>
+      <h3>You are displaying {number} characters out of 826 characters.</h3>
     </div>
   );
 }

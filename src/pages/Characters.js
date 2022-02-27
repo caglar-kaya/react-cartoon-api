@@ -33,7 +33,7 @@ function Characters() {
       <Welcome />
       <Header />
       <SearchBar />
-      <Info />
+      <Info number={data.results.length} />
       <CharacterList characters={data.results} />
     </>
   );

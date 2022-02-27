@@ -1,13 +1,13 @@
-.info-container {
+.favourites-reminder {
   margin: 20px 10px;
 }
 
-h3 {
-  background-color: #98368c;
+h4 {
+  background-color: #e93f33;
   padding: 10px;
   text-align: center;
   color: #fff;
-  width: 60%;
+  width: 45%;
   margin: 0px auto;
   border-radius: 5px;
   font-size: 2rem;
