@@ -6,6 +6,7 @@ import { FavouriteContextProvider } from './contexts/FavouriteContext';
 
 import Characters from './pages/Characters';
 import Favourites from './pages/Favourites';
+import CharacterDetails from './pages/CharacterDetails';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Characters />} />
           <Route path="/favourites" element={<Favourites />} />
+          <Route path="/character/:id" element={<CharacterDetails />} />
         </Routes>
       </BrowserRouter>
     </FavouriteContextProvider>

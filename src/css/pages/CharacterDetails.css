@@ -1,13 +1,13 @@
-.info-container {
+.character-details-reminder {
   margin: 20px 10px;
 }
 
-h3 {
-  background-color: #98368c;
+.character-details-reminder h4 {
+  background-color: #e93f33;
   padding: 10px;
   text-align: center;
   color: #fff;
-  width: 65%;
+  width: 55%;
   margin: 0px auto;
   border-radius: 5px;
   font-size: 2rem;
