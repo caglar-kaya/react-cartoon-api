@@ -81,12 +81,25 @@ In application, when you start it or refresh the page, you can display 20 charac
 
 [![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#top)
 
-## ✨ 4. Application
+## ✨ 4. Installation
 
-- Arrow Functions
-- Template Literals
-- async await with try/catch
-- Modules export/import
+4.1. Clone the app
+
+```
+git clone git@github.com:caglar-kaya/react-cartoon-api.git
+```
+
+4.2. Install npm modules
+
+```
+npm install
+```
+
+4.3. Start the app
+
+```
+npm start
+```
 
 [![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#top)
 
